@@ -101,7 +101,13 @@ main:
 # a1 is the address of the "output" array (defined above).
 f:
     # YOUR CODE GOES HERE!
-
+    addi s0, a0, 0 # load a0
+    addi s1, a1, 0 # load a1
+    addi t0, x0, 3 # offset 
+    add t0, s0, t0 # calculating offset
+    slli t0, t0, 2  # multiplying by four
+    add s1, s1, t0 # shifting s1 to the desired memory address
+    lw a0, 0(s1) # loading the value at that address into a0
     jr ra               # Always remember to jr ra after your function!
 
 # prints out one integer
