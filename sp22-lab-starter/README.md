@@ -36,11 +36,13 @@ map:
 Make sure you have prologue and epilogue of each function since the registers are used later in the main function which expect the states to be the same.
 
 ## lab-05
-Here is the truth table for 4-select MUX
+For excercise 2, here is the truth table for 4-select MUX
 ```
 S1 S2 O
 0  0  A    
 0  1  C
 1  0  B
 1  1  D
+
+For excersise 4, implement all the shifters using splitters, then use MUX to in the main cercuit to parse AMOUNT for each bit and roate
 ```
