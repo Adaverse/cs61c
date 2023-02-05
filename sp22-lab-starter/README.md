@@ -31,3 +31,16 @@ map:
   
   jalr x0, ra, 0
 ```
+
+## lab-04
+Make sure you have prologue and epilogue of each function since the registers are used later in the main function which expect the states to be the same.
+
+## lab-05
+Here is the truth table for 4-select MUX
+```
+S1 S2 O
+0  0  A    
+0  1  C
+1  0  B
+1  1  D
+```
