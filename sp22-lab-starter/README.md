@@ -43,6 +43,5 @@ S1 S2 O
 0  1  C
 1  0  B
 1  1  D
-
-For excersise 4, implement all the shifters using splitters, then use MUX to in the main cercuit to parse AMOUNT for each bit and roate
 ```
+For excersise 4, implement all the shifters using splitters, then use MUX to in the main cercuit to parse AMOUNT for each bit and rotate
