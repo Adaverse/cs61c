@@ -33,7 +33,7 @@ map:
 ```
 
 ## lab-04
-Make sure you have prologue and epilogue of each function since the registers are used later in the main function which expect the states to be the same.
+Make sure you have prologue and epilogue of each function since the registers are used later in the main function which expect the states of the registers to be the same.
 
 ## lab-05
 For excercise 2, here is the truth table for 4-select MUX
