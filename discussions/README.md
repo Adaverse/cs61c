@@ -43,14 +43,13 @@ hazards, but this decreases performance.
     > When working with caches, we have to be able to break down the memory addresses
 we work with to understand where they fit into our caches. There are three fields:
         &emsp; **Tag** - Used to distinguish different blocks that use the same index. Number of
-&emsp; bits: (# of bits in memory address) - Index Bits - Offset Bits
+        &emsp; bits: (# of bits in memory address) - Index Bits - Offset Bits
         &emsp; **Index** - The set that this piece of memory will be placed in. Number of bits:
         &emsp; log2 (# of indices)
         &emsp; **Offset** - The location of the byte in the block. Number of bits: log2
         &emsp; (size of block)
 Given these definitions, the following is true:
-    ```log2
-(memory size) = address bit-width = # tag bits + # index bits + # offset bits```
+    ```log2 (memory size) = address bit-width = # tag bits + # index bits + # offset bits```
 Another useful equality to remember is:
 ```cache size = block size ∗ num blocks```
 - Cache Associativity
