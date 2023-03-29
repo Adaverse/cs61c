@@ -77,3 +77,18 @@ If you hypothetically ran the ENTIRE string of memory accesses with a fully
 associative cache (with an LRU replacement policy) of the same size as your
 cache, and it was a miss for that specific access, then this miss is a capacity
 miss. The only way to remove the miss is to increase the cache capacity.
+
+# discussion 10 (Data-level Parallelism)
+
+### Few important points
+
+- Flynn's Taxonomy 
+    - SISD
+    - SIMD
+    - MISD
+    - MIMD
+
+- SIMD (Single instructions Multiple Data)
+    - Intel intrinsics documentation - https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html
+    - Intrinsics naming convention - https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/naming-and-usage-syntax.html
+    - How to use SIMD functions - https://www.cs.virginia.edu/~cr4bd/3330/S2018/simdref.html
