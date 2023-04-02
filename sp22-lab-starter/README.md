@@ -60,3 +60,8 @@ filtered_arr = _mm_and_si128(mask, loaded_arr)
 sum_arr = _mm_add_epi32(sum_arr, filtered_arr)
 ```
 Also, noting that degree of loop unrolling reduces the amount of time program takes!
+
+## lab - 09
+To summarize the lab
+ - Data races can be handled using critical section in OpemMP
+ - Reduction operation can also be performed in OpenMP
